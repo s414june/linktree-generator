@@ -54,7 +54,6 @@ const { getClasses, tailwindClasses } = useCommonStore()
           :key="i"
           :href="item.url"
           target="_blank"
-          :class="['transition', item.color]"
         >
           <component :is="item.icon" class="w-6 h-6" />
         </a>
