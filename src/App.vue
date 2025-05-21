@@ -9,7 +9,9 @@ import LinktreeShow from './components/LinktreeShow.vue'
       <GeneratorTool />
     </aside>
     <main class="flex-1">
-      <LinktreeShow />
+      <div id="linktree-preview">
+        <LinktreeShow />
+      </div>
     </main>
   </div>
   <!-- <RouterView /> -->

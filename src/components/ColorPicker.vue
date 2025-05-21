@@ -10,7 +10,7 @@ const emit = defineEmits(['update:modelValue'])
 
 const prefix = computed(() => props.prefix ?? 'bg')
 const isOpen = ref(false)
-const color = ref(props.modelValue)
+const color = ref(props.modelValue.split('-')[1] + '-' + props.modelValue.split('-')[2])
 
 const colorFamilies = [
   'red',
@@ -44,7 +44,7 @@ const isSelected = (color: string) => selected.value === color
 
 const handleSelect = (_color: string) => {
   color.value = _color
-  emit('update:modelValue', _color)
+  emit('update:modelValue', `${prefix.value}-${color.value}`)
 }
 </script>
 
@@ -52,7 +52,7 @@ const handleSelect = (_color: string) => {
   <button
     type="button"
     class="w-7 h-7 rounded border border-white shadow ring-2 ring-transparent focus:outline-none"
-    :class="color"
+    :class="`bg-${color}`"
     @click.stop="isOpen = !isOpen"
   />
   <div
@@ -68,13 +68,12 @@ const handleSelect = (_color: string) => {
           type="button"
           class="w-5 h-5 rounded border border-white shadow ring-2 ring-transparent focus:outline-none"
           :class="[
-            `${prefix}-${family}-${shade}`,
+            `bg-${family}-${shade}`,
             isSelected(`${prefix}-${family}-${shade}`) && 'ring-blue-500',
           ]"
-          @click="handleSelect(`${prefix}-${family}-${shade}`)"
+          @click="handleSelect(`${family}-${shade}`)"
         />
       </div>
     </div>
   </div>
-  <div v-if="isOpen" class="w-full h-full fixed left-0 top-0" @click="isOpen = false"></div>
 </template>
