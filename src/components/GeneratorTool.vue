@@ -32,6 +32,9 @@ const exportHtml = () => {
   htmlContent += '</title>\n'
   htmlContent += '  <script src="https://cdn.tailwindcss.com"><'
   htmlContent += '/script>\n'
+  htmlContent +=
+    '  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.js"><'
+  htmlContent += '/script>\n'
   htmlContent += '</head>\n'
   htmlContent += '<body class="min-h-screen flex flex-col items-center justify-center">\n'
   htmlContent += innerHTML + '\n'
