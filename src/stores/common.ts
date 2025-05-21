@@ -84,7 +84,7 @@ export const useCommonStore = defineStore('common', () => {
     { name: 'github', icon: ['fab', 'github'], url: 'https://github.com' },
     { name: 'facebook', icon: ['fab', 'facebook'], url: 'https://facebook.com' },
     { name: 'linkedin', icon: ['fab', 'linkedin'], url: 'https://linkedin.com' },
-    { name: 'twitter', icon: ['fab', 'twitter'], url: '' },
+    { name: 'X', icon: ['fab', 'x-twitter'], url: '' },
     { name: 'instagram', icon: ['fab', 'instagram'], url: '' },
     { name: 'youtube', icon: ['fab', 'youtube'], url: '' },
     { name: 'tiktok', icon: ['fab', 'tiktok'], url: '' },

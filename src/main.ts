@@ -10,7 +10,7 @@ import { library } from '@fortawesome/fontawesome-svg-core'
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome'
 import {
   faGithub,
-  faTwitter,
+  faXTwitter,
   faInstagram,
   faFacebook,
   faYoutube,
@@ -38,7 +38,7 @@ app.use(router)
 
 library.add(
   faGithub,
-  faTwitter,
+  faXTwitter,
   faInstagram,
   faFacebook,
   faYoutube,
