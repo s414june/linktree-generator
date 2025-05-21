@@ -61,6 +61,7 @@
 `,i+='  <link rel="icon" type="image/png"  href="',i+=t.value,i+=`" />
 `,i+="  <title>",i+=document.title.replace(" - Linktree Generator",""),i+=`</title>
 `,i+='  <script src="https://cdn.tailwindcss.com"><',i+=`/script>
+`,i+='  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/js/all.js"><',i+=`/script>
 `,i+=`</head>
 `,i+=`<body class="min-h-screen flex flex-col items-center justify-center">
 `,i+=o+`
