@@ -3,7 +3,9 @@
 一個簡單的個人頁面生成器，類似 Linktree 的概念。
 你可以編輯基本資料、加入連結與社群平台，並匯出成 HTML，純前端、不需伺服器！
 
-[立即體驗](https://s414june.github.io/linktree-generator/)
+[立即體驗！](https://s414june.github.io/linktree-generator/)
+
+
 
 
 ## 功能特色
@@ -16,12 +18,16 @@
 - [x] 無需登入、完全前端處理
 
 
+
+
 ## 技術
 
 - Vue 3
 - Tailwind CSS
 - Font Awesome / Lucide Icons
 - FileReader API / Blob / DataURL
+
+
 
 
 ## 快速製作Linktree網站 - 推薦方法
@@ -66,6 +72,8 @@ https://你的帳號.github.io/你的倉庫名稱/
 | 不會程式也能操作 | 介面簡單清楚 |
 
 
+
+
 ## 如何使用專案
 
 ```bash
@@ -80,13 +88,18 @@ pnpm run build
 ```
 
 
-## 授權
+
+
+## 開源授權
 
 - MIT 授權，自由使用
 
 
-### 作者的話
-我是Froggy Wu，正職前端工程師，副業開腦洞
+
+
+## 作者的話
+我是Froggy Wu，正職前端工程師，副業開腦洞🧠。
 喜歡的話，幫我的專案點個星星鼓勵吧⭐
+
 
 
