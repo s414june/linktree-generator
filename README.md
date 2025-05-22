@@ -5,6 +5,7 @@
 
 [立即體驗](https://s414june.github.io/linktree-generator/)
 
+
 ## 功能特色
 
 - [x] 即時預覽個人頁面樣式
@@ -14,15 +15,17 @@
 - [x] 匯出 HTML 可單機使用
 - [x] 無需登入、完全前端處理
 
+
 ## 技術
 
 - Vue 3
 - Tailwind CSS
 - Font Awesome / Lucide Icons
 - FileReader API / Blob / DataURL
-- MIT 授權，自由使用
+
 
 ## 快速製作Linktree網站 - 推薦方法
+
 
 ### 🚀 快速部署到 Netlify - 拖曳檔案上傳（超簡單）
 
@@ -37,7 +40,7 @@ https://your-custom-name.netlify.app
 > ✅ 完成！這樣你就擁有一個可以分享給朋友的個人頁面 🎉
 
 
-### 快速部署到 Github Pages（免寫程式）
+### ✨ 快速部署到 Github Pages（免寫程式）
 
 1. 開啟 [GitHub](https://github.com)，登入或註冊你的帳號
 2. 點右上角「➕」 > 選「New repository」
@@ -51,6 +54,7 @@ https://your-custom-name.netlify.app
 8. 儲存後，你的網頁會在幾分鐘內部署完成，網址會長這樣：
 https://你的帳號.github.io/你的倉庫名稱/
 
+
 ### 為什麼推薦 Netlify / GitHub Pages？
 
 | 優點 | 說明 |
@@ -60,6 +64,7 @@ https://你的帳號.github.io/你的倉庫名稱/
 | 支援更新(GitHub Pages) | 隨時可以重新上傳新版 `index.html`並自動更新網站 |
 | 版本控管(GitHub Pages) | 會留下版本歷史紀錄供追溯 |
 | 不會程式也能操作 | 介面簡單清楚 |
+
 
 ## 如何使用專案
 
@@ -73,3 +78,15 @@ pnpm run dev
 # 編譯產出至 docs/
 pnpm run build
 ```
+
+
+## 授權
+
+- MIT 授權，自由使用
+
+
+### 作者的話
+我是Froggy Wu，正職前端工程師，副業開腦洞
+喜歡的話，幫我的專案點個星星鼓勵吧⭐
+
+
