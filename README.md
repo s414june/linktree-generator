@@ -22,14 +22,14 @@
 - FileReader API / Blob / DataURL
 - MIT 授權，自由使用
 
-## 快速製作Linktree網站方法推薦
+## 快速製作Linktree網站 - 推薦方法
 
 ### 🚀 快速部署到 Netlify - 拖曳檔案上傳（超簡單）
 
 如果你想將匯出的 `index.html` 頁面上傳到網路上，Netlify 是最簡單、免費、快速的方式之一。
 
 1. 打開 [https://app.netlify.com/drop](https://app.netlify.com/drop)
-2. 把你匯出的 `index.html` 拖曳上去（如果有用到圖片，也一起拖進去）
+2. 把你匯出的 `index.html` 拖曳上去
 3. 等幾秒，Netlify 就會自動產生一個網址，例如：
 https://your-custom-name.netlify.app
 4. 點選 `Site settings` 可以修改網址名稱（需登入 Netlify 帳號）
